@@ -1,0 +1,66 @@
+.mq {
+  width: 100vw;
+  height: 600px;
+  text-align: center;
+}
+
+@media (min-width: 1440px) {
+  .mq {
+    background-color: green;
+  }
+
+  .media {
+    display: inline;
+  }
+  .demo {
+    display: inline;
+  }
+
+  .page {
+    display: inline;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .mq {
+    background-color: rgb(102, 102, 19);
+  }
+
+  .media {
+    display: inline;
+  }
+  .demo {
+    display: inline;
+  }
+
+  .page {
+    display: inline;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .mq {
+    background-color: rgb(21, 220, 210);
+  }
+
+  .media {
+    display: inline;
+  }
+  .demo {
+    display: inline;
+  }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+  .mq {
+    background-color: brown;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 425px) {
+  .mq {
+    background-color: brown;
+  }
+}
+
+* {
+  margin: 0;
+}
